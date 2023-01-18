@@ -1,0 +1,48 @@
+:root {
+    --destaque: #8E2424;
+    --texto: #667085;
+    --branco: white;
+    --titulo: #101828;
+}
+.formulario{
+    display: block;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin: 0 2vw;
+    margin-top: 20vw;
+    margin-bottom: 10vw;
+}
+.formulario__titulo{
+    color: var(--titulo);
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+}
+.formulario__subtitulo{
+    color: var(--texto);
+    font-size: 20px;
+    font-weight: 400;
+}
+.formulario__email__input{
+    width: 392px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #D0D5DD;
+    border-style: solid;
+    opacity: 1;
+}
+.formulario__email__botao{
+    width: 100px;
+    height: 42px;
+    background-color: var(--destaque);
+    border: 0;
+    border-radius: 10px;
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 16px;
+}
+.formulario__copy{
+    color: var(--texto);
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -1,0 +1,129 @@
+:root {
+    --destaque: #8E2424;
+    --texto: #667085;
+    --branco: white;
+    --titulo: #101828;
+}
+.main{
+    display: block;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding: 0 5vw;
+}
+.cabecalho{
+    height: 25vw;
+}
+.cabecalho__titulo3{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--destaque);
+    margin-top: 6vw;
+}   
+.cabecalho__titulo{
+    color: var(--titulo);
+    font-size: 48px;
+    font-weight: 600;
+}
+.cabecalho__texto{
+    color: var(--texto);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 20vw;
+    justify-content: center;
+}
+.metrica{
+    display: flex;
+    justify-content: center;
+    padding: 0 5vw;
+}
+.metrica__item{
+    list-style: none;
+    padding: 0 2vw;
+    text-align: left;
+    width: 18vw;
+}
+.item__titulo{
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--destaque);
+}
+.item__subtit{
+    color: var(--titulo);
+}
+.metrica__item p{
+    width: 18vw;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--texto);
+    text-align: left;
+}
+.vagas{
+    margin-top: 15vw;
+}
+.vagas__subtit{
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--destaque);
+    margin-top: 6vw;
+}   
+.vagas__titulo{
+    color: var(--titulo);
+    font-size: 36px;
+    font-weight: 600;
+}
+.vagas__texto{
+    color: var(--texto);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 20vw;
+    justify-content: center;
+}
+
+.vaga{
+    text-align: left;    
+    padding: 5vw 20vw;
+}
+.vaga__tipo{
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--titulo);
+}
+.vaga__nome{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--titulo);
+    padding-left: 2vw;
+    padding-top: 5vw;
+}
+.vaga__detalhe{
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--texto);
+    padding-left: 2vw;
+    display: flex;
+}
+.valor{
+    padding-left: 2vw;
+}
+.depoimentos__subtit{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--destaque);
+    margin-top: 6vw;
+}   
+.depoimentos__titulo{
+    color: var(--titulo);
+    font-size: 36px;
+    font-weight: 500;
+    padding: 0 5vw;
+}
+.depoimentos__nome{
+    color: var(--titulo);
+    font-size: 16px;
+    font-weight: 500;
+}
+.depoimentos__funcao{
+    color: var(--texto);
+    font-size: 14px;
+    font-weight: 400;
+}
